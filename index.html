@@ -8,54 +8,24 @@
 </head>
 <body>
 
-<header>
-    <h1>Kavana Inventory</h1>
-    <p>Manage your products and costs</p>
-</header>
+    <div class="container">
+        <h1>Kavana Inventory</h1>
+        <p>Control de inventario y costos</p>
 
-<main class="container">
+        <input type="text" placeholder="Nombre del producto">
+        <input type="number" placeholder="Cantidad">
+        <input type="number" placeholder="Costo">
 
-    <div class="card">
-        <h2>Add Product</h2>
+        <button>Agregar Producto</button>
 
-        <input type="text" placeholder="Product Name">
+        <h2>Inventario</h2>
 
-        <input type="number" placeholder="Quantity">
-
-        <input type="number" placeholder="Unit Cost">
-
-        <button>Add Product</button>
+        <ul>
+            <li>Kratom Mix - 10 unidades</li>
+            <li>Kava - 5 unidades</li>
+            <li>Red Bull - 24 unidades</li>
+        </ul>
     </div>
-
-    <div class="card">
-        <h2>Inventory</h2>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Product</th>
-                    <th>Qty</th>
-                    <th>Cost</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>Kratom</td>
-                    <td>20</td>
-                    <td>$300</td>
-                </tr>
-
-                <tr>
-                    <td>Kava</td>
-                    <td>10</td>
-                    <td>$150</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-</main>
 
 </body>
 </html>

@@ -1,21 +1,61 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inventario Kava Bar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavana Inventory</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Inventario Kava Bar</h1>
 
-  <p>Aplicación para gestionar:</p>
+<header>
+    <h1>Kavana Inventory</h1>
+    <p>Manage your products and costs</p>
+</header>
 
-  <ul>
-    <li>Inventario</li>
-    <li>Costos</li>
-    <li>Ventas</li>
-    <li>Recetas</li>
-    <li>Ganancias</li>
-  </ul>
+<main class="container">
+
+    <div class="card">
+        <h2>Add Product</h2>
+
+        <input type="text" placeholder="Product Name">
+
+        <input type="number" placeholder="Quantity">
+
+        <input type="number" placeholder="Unit Cost">
+
+        <button>Add Product</button>
+    </div>
+
+    <div class="card">
+        <h2>Inventory</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Qty</th>
+                    <th>Cost</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Kratom</td>
+                    <td>20</td>
+                    <td>$300</td>
+                </tr>
+
+                <tr>
+                    <td>Kava</td>
+                    <td>10</td>
+                    <td>$150</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</main>
+
 </body>
 </html>
